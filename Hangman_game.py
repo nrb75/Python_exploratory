@@ -15,7 +15,7 @@ secret='jello'
 
 correctguesses=0
 wrongguesses=0
-attemptedword = '*'*len(secret)
+attemptedword = ['*']*len(secret)
 
 print('guess the letters in my ' +str(len(secret)) +' letter word' )
 
